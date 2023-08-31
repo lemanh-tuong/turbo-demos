@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build:turbo": "turbo run build",
+    "build": "npm-run-all build:umi-models build::turbo",
+    "build:turbo:tcns": "turbo run build --filter=tcns",
+    "build:tcns": "npm-run-all build:umi-models build::turbo:tcns",
+    "dev:turbo": "turbo run dev --no-cache --continue",
+    "dev": "npm-run-all dev:umi-models dev:turbo",
+    "dev:umi-models": "nodemon scripts/umi-models.js",
+    "build:umi-models": "node scripts/umi-models.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-custom": "*",
+    "fs-extra": "^11.1.1",
+    "nodemon": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.5.1",
+    "tsconfig": "*",
+    "turbo": "latest"
+  },
+  "packageManager": "yarn@1.22.19",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

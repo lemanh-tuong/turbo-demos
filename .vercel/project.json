@@ -1,0 +1,15 @@
+{
+  "orgId":"IAJZnmPzE0WcVxAUqMDbMFRO",
+  "projectId":"prj_qjz6fC9zx9LeUvUoXOHhnZkAMYZs",
+  "settings": {
+    "createdAt": 1694410908518,
+    "framework": "umijs",
+    "devCommand": "yarn dev:tcns",
+    "installCommand": "yarn install",
+    "buildCommand": "yarn build:tcns",
+    "outputDirectory": "apps/tcns/dist",
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "16.x"
+  }
+}
