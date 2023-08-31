@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "target": "ES2019",
+    "baseUrl": ".",
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowJs": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "git clean -fdx -e .vercel .",
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "format": "prettier --write .",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "dependencies": {
+    "@types/glob": "8.0.1",
+    "glob": "8.1.0",
+    "prettier": "2.8.4",
+    "turbo": "1.8.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  },
+  "prettier": {}
+}

@@ -1,0 +1,15 @@
+{
+  "projectId": "prj_w0HblIkktF9nUVo93c3rehQKCCDC",
+  "orgId": "IAJZnmPzE0WcVxAUqMDbMFRO",
+  "settings": {
+    "createdAt": 1697428570980,
+    "framework": "remix",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": "cd ../.. && npx turbo run build --scope=remix-app",
+    "outputDirectory": null,
+    "rootDirectory": "apps/remix-app",
+    "directoryListing": false,
+    "nodeVersion": "18.x"
+  }
+}
